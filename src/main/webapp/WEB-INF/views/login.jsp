@@ -36,6 +36,7 @@
 	</nav>
 
 	<div class="container">
+		<p>Welcome! to Web Application sample project, Enter your credentials below:</p>
 		<form action="/login.do" method="post">
 			<p>
 				<font color="red">${errorMessage}</font>
