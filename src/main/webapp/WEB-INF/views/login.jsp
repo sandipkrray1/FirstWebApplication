@@ -36,6 +36,8 @@
 	</nav>
 
 	<div class="container">
+		<h3>Login home page</h3>
+		<p>Enter your credentials below:</p>
 		<form action="/login.do" method="post">
 			<p>
 				<font color="red">${errorMessage}</font>
@@ -43,7 +45,6 @@
 			Name: <input type="text" name="name" /> Password:<input
 				type="password" name="password" /> <input type="submit"
 				value="Login" />
-		<p>Enter your credentials above:</p>
 		</form>
 
 	</div>
